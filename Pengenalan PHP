@@ -1,0 +1,60 @@
+
+Pengenalan PHP
+
+Pada awalnya PHP merupakan kependekan dari Personal Home Page (Situs personal). PHP pertama kali dibuat oleh Rasmus Lerdorf pada tahun 1995. Pada waktu itu PHP masih bernama Form Interpreted (FI), yang wujudnya berupa sekumpulan skrip yang digunakan untuk mengolah data formulir dari web. Selanjutnya Rasmus merilis kode sumber tersebut untuk umum dan menamakannya PHP/FI. Dengan perilisan kode sumber ini menjadi sumber terbuka, maka banyak pemrogram yang tertarik untuk ikut mengembangkan PHP. Pada November 1997, dirilis PHP/FI 2.0. Pada rilis ini, interpreter PHP sudah diimplementasikan dalam program C. Dalam rilis ini disertakan juga modul-modul ekstensi yang meningkatkan kemampuan PHP/FI secara signifikan. Pada tahun 1997, sebuah perusahaan bernama Zend menulis ulang interpreter PHP menjadi lebih bersih, lebih baik, dan lebih cepat.
+
+Kemudian pada Juni 1998, perusahaan tersebut merilis interpreter baru untuk PHP dan meresmikan rilis tersebut sebagai PHP 3.0 dan singkatan PHP diubah menjadi akronim berulang PHP: Hypertext Preprocessing. Pada pertengahan tahun 1999, Zend merilis interpreter PHP baru dan rilis tersebut dikenal dengan PHP 4.0. PHP 4.0 adalah versi PHP yang paling banyak dipakai pada awal abad ke-21. Versi ini banyak dipakai disebabkan kemampuannya untuk membangun aplikasi web kompleks tetapi tetap memiliki kecepatan dan stabilitas yang tinggi. Pada Juni 2004, Zend merilis PHP 5.0. Dalam versi ini, inti dari interpreter PHP mengalami perubahan besar. Versi ini juga memasukkan model pemrograman berorientasi objek ke dalam PHP untuk menjawab perkembangan bahasa pemrograman ke arah paradigma berorientasi objek. Server web bawaan ditambahkan pada versi 5.4 untuk mempermudah pengembang menjalankan kode PHP tanpa menginstall software server.
+
+PHP atau Hypertext Prepocessor merupakan bahasa pemrograman yang bersifat dinamis yang di desain khusus untuk web development atau pengembangan web. PHP memiliki sifat Server-Side karena PHP dijalankan atau di eksekusi dari sisi server bukan pada komputer client. PHP di jalankan melalui aplikasi web browser sama halnya seperti HTML.
+
+Dalam website dinamis atau pun interaktif, bahasa pemrograman PHP dipakai sebagai media untuk mempersingkat tatanan bahasa pemrograman HTML dan CSS. Dalam pembuatan website yang berisi data siswa misalnya. Dengan menggunakan bahasa pemrograman HTML dan CSS, maka dibutuhkan baris kode yang sangat panjang (sesuai dengan jumlah data siswa yang ingin diinput), sedangkan dengan menggunakan bahasa pemrograman PHP, baris kode yang dibutuhkan dapat dipersingkat hingga menjadi beberapa baris saja.
+
+Selain dapat mempersingkat script bahasa pemrograman, PHP juga dapat digunakan untuk menginput data ke sistem database, mengkonversi halaman yang berisi text menjadi dokumen PDF, melaksanakan manajemen cookie dan session dalam berbagai macam aplikasi, menghasilkan gambar, dan berbagai macam kegunaan lainnya.
+
+Berikut contoh penggunaan php pada HTML :
+<html>
+
+<head>
+
+<title>Belajar cara memasukkan kode PHP</title>
+
+</head>
+
+<body>
+
+<p>Kalimat ini dibuat menggunakan HTML saja </p>
+
+<?php
+
+echo “<p>Kalimat ini dibuat menggunakan mode PHP style</p>”;
+
+?>
+
+<?
+
+echo “<p>Kalimat ini dibuat menggunakan mode SMGL style </p>”;
+
+?>
+
+<%
+
+echo “<p>Kalimat ini dibuat menggunakan mode ASP Style </p>”;
+
+%>
+
+<script language=”php”>
+
+echo “<p>Kalimat ini dibuat menggunakan mode Script Style </p>”;
+
+</script>
+
+<?=” <p>Kalimat ini dibuat menggunakan mode Instan style </p>”; ?>
+
+</body>
+
+</html>
+Note : Untuk menggunakan php pada HTML, kita harus melakukan penyimpanan file dengan format “namafile.php”. Jika kita hanya menggunakan “.html”, maka fungsi – fungsi pada php tidak akan dapat berjalan di file tersebut.
+
+Pada bagian kode – kode di atas, untuk menyisipkan fungsi php / menggunakan fungsi php, kita harus menggunakan tag “<?php” sebagai awalan dan tag “?>” sebagai penutup. Kemudian, pada kode – kode di atas, ada yang namanya “echo”. “Echo” ini di gunakan untuk menampilkan tulisan ataupun value dalam sebuah variable dan biasanya para programmer sering menyingkat kata – kata echo dengan tag php seperti ini “<?= “kalimat atau variable” ?>”.
+
+Setelah membuat file php, untuk menjalankannya pada computer kita, kita membutuhkan aplikasi – aplikasi untuk mempemudah kita untuk membuka file tersebut seperti XAMPP. Setelah itu, pada aplikasi XAMPP tersebut hanya perlu menjalankan module yang bernama “Apache”. Kemudian hanya perlu mengetikan https://localhost/namafolder/namafile.php pada web browser kalian.
